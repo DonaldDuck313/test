@@ -36,10 +36,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './testfolder'
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
           name: './test.json'
       - name: Deploy to GitHub Pages
         id: deployment
